@@ -50,9 +50,10 @@ def format_toc(toc_map):
     return out
 
 def write_all():
-    out = format_toc(toc_map)
+    out = ''
     for block in np.sort(df['Block (see hdsishowcase.com)'].unique()):
         out += process_block(block)
+    out = format_toc(toc_map) + '\n<br>\n' + out
     out = template.replace('### REPLACE ###', out)
     with open('../index.html', 'w') as f:
         f.write(out)
