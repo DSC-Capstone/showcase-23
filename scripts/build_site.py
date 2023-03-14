@@ -20,7 +20,7 @@ df['Section'] = df['Group #'].str.split('-').str[0]
 mentors = pd.read_csv('2022-23 Student-Facing Capstone Scheduling Sheet - Sheet3.csv', 
                       header=None)
 mentors.columns = ['Section', 'Mentors']
-posters = pd.read_csv('Poster links - Sheet1 (1).csv')
+posters = pd.read_csv('Poster links - Sheet1.csv')
 posters['Group #'] = posters['File'].str.extract(r'([AB]\d{2,3}-\d)')
 
 df = df.merge(mentors, on='Section').merge(posters, on='Group #')
