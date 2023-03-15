@@ -37,7 +37,7 @@ df = df.merge(mentors, on='Section').merge(posters, on='Group #').merge(reports,
 def load_artifacts(sub):
     artifacts = json.load(open(f'{ASGN_NAME}/{sub}/artifacts.json', 'r'))
     code = artifacts['project-repository']
-    code = code.replace('.git', '')
+    code = code.strip('.git')
     website = artifacts['project-website-url']
     return code, website
 
