@@ -27,10 +27,9 @@ mentors.columns = ['Section', 'Mentors']
 posters = pd.read_csv('Poster links - Sheet1.csv')
 reports = pd.read_csv('Report links - Sheet1.csv')
 reports['Group #'] = reports['File'].str.replace('.pdf', '')
-print(reports.head())
 posters['Group #'] = posters['File'].str.extract(r'([AB]\d{2,3}-\d)')
 
-df = df.merge(mentors, on='Section').merge(posters, on='Group #').merge(reports, on='Group #')
+df = df.merge(mentors, on='Section', how='left').merge(posters, on='Group #', how='left').merge(reports, on='Group #', how='left').fillna('#')
 
 # Now, add abstract/website link/code link/paper link
 
@@ -65,9 +64,13 @@ def process_metadata(meta):
         try:
             name = meta[sub][':submitters'][0][':name']
         except Exception as e:
+            pass
             print(sub)
+        if name == 'Alison Dunning':
+            name = 'Camille Dunning'
         row = df[df['Names'].str.contains(name)]
         if len(row) != 1:
+            pass
             print(row)
         else:
             row = row.iloc[0]
@@ -88,12 +91,14 @@ def process_metadata(meta):
     out_df = out_df.groupby('Group #').last().reset_index()
     return out_df
 
-df = df.merge(process_metadata(meta), on='Group #', how='left')
+df = df.merge(process_metadata(meta), on='Group #', how='left').fillna('#')
 
 # Manual fixes for typos
 
 df.loc[df['Group #'] == 'B08-1', 'Code'] = 'https://github.com/ESR76/Capstone-Brick-Modeling'
 df.loc[df['Group #'] == 'B319-3', 'Code'] = 'https://github.com/TallMessiWu/dota2-drafting-backend'
+
+print(df.loc[df['Group #'] == 'A11-1'].iloc[0])
 
 def format_project(row):
     mentor_label = 'Mentors' if ('and' in row['Mentors'] or ',' in row['Mentors']) else 'Mentor'
