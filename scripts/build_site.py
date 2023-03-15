@@ -97,6 +97,7 @@ df = df.merge(process_metadata(meta), on='Group #', how='left').fillna('#')
 
 df.loc[df['Group #'] == 'B08-1', 'Code'] = 'https://github.com/ESR76/Capstone-Brick-Modeling'
 df.loc[df['Group #'] == 'B319-3', 'Code'] = 'https://github.com/TallMessiWu/dota2-drafting-backend'
+df.loc[df['Group #'] == 'A11-2', 'Code'] = 'https://github.com/bliu8923/dsc180b-project'
 
 print(df.loc[df['Group #'] == 'A11-1'].iloc[0])
 
