@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/DSC180A/artifact-final",
+    "project-repository": "https://github.com/DSC180A/transaction_categorization",
+    "dockerhub-repository": "cespan/transaction_categorization",
+    "project-website-url": "https://dsc180a.github.io/rethink_creditscore.github.io/",
+    "project-website-code": "https://github.com/DSC180A/rethink_creditscore.github.io"
+}

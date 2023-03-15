@@ -1,0 +1,5 @@
+Title:
+Your Kernel Machine is Secretly a Neural Network
+
+Abstract:
+Although neural networks have proved very effective in solving a range of technological and scientific problems, our knowledge of how they work hasn't kept up with their progress in practice. We can develop fresh and efficient strategies to enhance neural network performance by identifying the underlying mechanics that underlie these systems. In order to construct recursive feature machines (RFMs), which are kernel machines that learn features, we focus our study on the essential mechanism underlying feature learning in fully connected neural networks. Our results demonstrate the superior performance of RFMs over a variety of models and a variety of data types.

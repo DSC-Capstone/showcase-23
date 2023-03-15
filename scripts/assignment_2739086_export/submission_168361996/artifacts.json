@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/gprasad125/artifact-directory-template.git",
+    "project-repository": "https://github.com/gprasad125/dsc180b.git",
+    "dockerhub-repository": "itsgokul/dsc180b_final:latest",
+    "project-website-url": "https://gprasad125.github.io/",
+    "project-website-code": "https://github.com/gprasad125/gprasad125.github.io.git"
+}

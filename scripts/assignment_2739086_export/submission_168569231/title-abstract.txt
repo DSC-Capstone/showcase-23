@@ -1,0 +1,5 @@
+Title:
+Generalize Animal Recognition CNN model with Background Removal
+
+Abstract:
+Camera traps are commonly used by ecologists to monitor wildlife biodiversity loss. However, the variation in locations and environment of camera traps poses a challenge for multi-class species classification using machine learning models. In this project, we experimented with a domain adaptation method called background removal to address this challenge. Our approach involves subtracting the background from the original image to highlight animal features. We trained a convolutional neural network on images with background removed, and our model achieves a classification accuracy of 0.37 on images taken by existing camera traps and 0.35 on images taken by new camera traps. We also preserved the original color of the animal pixels by masking the background-removed image. The average time taken for classifying one image using background removal is 0.0108 seconds, slightly longer than the baseline model. Our findings demonstrate the potential of using background removal as a domain adaptation method to improve the accuracy of wildlife biodiversity monitoring using camera traps.

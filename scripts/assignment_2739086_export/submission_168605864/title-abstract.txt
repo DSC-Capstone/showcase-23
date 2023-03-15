@@ -1,0 +1,5 @@
+Title:
+Evaluating Fungal Feature Importance in Predicting Life Expectancy for Cancer Patients
+
+Abstract:
+In this project, we will be exploring the relationship of the combined mycobiome data and metadata evaluating cancer stage progress and death amongst different cancer types. We will attempt to determine which features are associated with cancer stage as well as days to death. 

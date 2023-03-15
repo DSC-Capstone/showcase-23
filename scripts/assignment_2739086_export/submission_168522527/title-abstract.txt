@@ -1,0 +1,4 @@
+Title: How Well Do Bio-Markers Work for CNN Training: A Comparison of Model Results
+
+Abstract: 
+Utilizing correlative biomarkers from inexpensive blood tests as ground truths could decrease the cost of obtaining training data for deep learning dramatically. This work aims to analyze the success of utilizing BNPP levels as a heuristic for pulmonary edema for training data by testing these chest radiograph models on radiologist confirmed pulmonary edema radiographs from a public dataset. It also explores the use of anatomical segmentation for images to help focus the model on biologically important aspects of the image.

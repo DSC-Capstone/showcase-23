@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/xiqiangliu/DSC180-Artifact.git",
+    "project-repository": "https://github.com/ejsong37/Trustworthy-Recommender-Systems-Capstone.git",
+    "dockerhub-repository": "xiqiangliu/dsc-capstone-docker:mabs",
+    "project-website-url": "https://hi3nb1.github.io/capstone/Introduction.html",
+    "project-website-code": "https://github.com/hi3nb1/capstone.git"
+}

@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/jmryan19/artifact-directory-template.git",
+    "project-repository": "https://github.com/jmryan19/DSC180",
+    "dockerhub-repository": "jmryan19/panda:latest",
+    "project-website-url": "https://jmryan19.github.io/DSC180.io/",
+    "project-website-code": "https://github.com/jmryan19/DSC180.io"
+}

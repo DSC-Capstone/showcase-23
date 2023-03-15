@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/radumanea23/artifact-directory-template.git",
+    "project-repository": "https://github.com/KeaganBenson/DSC180Flock.git",
+    "dockerhub-repository": "bensonduong/cylavdor:latest",
+    "project-website-url": "https://radumanea23.github.io/UCSDFlockFreightCapstone/",
+    "project-website-code": "https://github.com/radumanea23/UCSDFlockFreightCapstone.git"
+}

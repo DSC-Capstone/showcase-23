@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/R1chZhang/artifact-directory-template",
+    "project-repository": "https://github.com/bliu8923/dsc180b-project",
+    "dockerhub-repository": "https://hub.docker.com/repository/docker/b6liu/dsc180b/general",
+    "project-website-url": "https://brliu.com/dsc180b-project/",
+    "project-website-code": "https://github.com/bliu8923/dsc180b-project/tree/brandon-website"
+}

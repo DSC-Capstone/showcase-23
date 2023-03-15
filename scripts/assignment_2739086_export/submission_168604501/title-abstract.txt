@@ -1,0 +1,12 @@
+Title:
+Predicting Pulmonary Edema Using Convolutional Neural Networks and Image Segmentation
+
+Abstract:
+Background 
+This project investigates the potential of convolutional neural networks (CNN) to identify cardiogenic pulmonary edema (CPE) from chest radiographs and NT-proBNP biomarker measurements. Building upon the methods used by Huynh in “Deep Learning Radiographic Assessment of Pulmonary Edema,” our project aimed to expand upon his findings by modifying CNN architectures to intake additional parameters [1]. Specifically, we evaluated the impact of including (1) clinical data and (2) heart and lung image segmentation on CNN model performance: we hypothesized that incorporating these features would improve the ability of the CNN classifier to identify CPE.
+Methods
+Chest radiographs and clinical data obtained from 16,619 UC San Diego Health patients were randomly split into train, validation, and test sets at a ratio of 80%/10%/10%. We trained four modified ResNet152 CNN architectures with differing inputs: (A) Original Radiographs only, (B) Original Radiographs + Clinical Data, (C) Original Radiographs + Heart & Lung Segmentations, and (D) Original Radiographs + Heart & Lung Segmentations + Clinical Data. Early stopping was implemented to save the models with the minimum loss on the validation set (n = 1,662). The four model’s accuracy and AUC on the test set (n = 1,662) were used to compare model performance.
+Results
+Model (B) had the highest accuracy (0.787) and AUC (0.869). Model (D) performed marginally worse than Model (B), with accuracy and AUC of 0.783 and 0.866, respectively. Models (A) and (B) performed considerably worse than both Models (B) and (D).
+Conclusions
+This project emphasizes the need to consider confounding factors, clinical data, and image segmentation when training CNN models for medical imaging classification tasks. While an increase in CNN model performance was observed from adding clinical data, a performance increase was not observed in the models that included heart and lung segmentations. Further research is needed to determine the optimal use of image segmentations in CNN models.

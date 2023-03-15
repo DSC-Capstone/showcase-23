@@ -1,0 +1,5 @@
+Title:
+Personalized Recipe Recommendation Using Heterogeneous Graphs
+
+Abstract:
+Recent social and economic trends have led to a rise in the number of people cooking at home. However, many people struggle to find recipes that fit their current culinary goals. We present a novel approach to help users find personalized recipes using heterogeneous graphs. We use a graph data structure to represent recipes and reviews, and leverage the graph structure to capture the relationships between recipes and users. We then use a graph neural network to learn a representation of the graph that can be used to recommend recipes to users. We evaluate our approach on a dataset of food.com reviews and show that our model outperforms a baseline model that does not leverage the graph structure.

@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/shivsakthivel/artifact-directory-template",
+    "project-repository": "https://github.com/shivsakthivel/CNN-Multilabel-Classification",
+    "dockerhub-repository": "ucsdets/scipy-ml-notebook",
+    "project-website-url": "https://shivsakthivel.github.io/DSC180B-Capstone/",
+    "project-website-code": "https://github.com/shivsakthivel/DSC180B-Capstone"
+}

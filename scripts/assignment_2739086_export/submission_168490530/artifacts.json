@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/nathansng/artifact-directory-template.git",
+    "project-repository": "https://github.com/nathansng/fintech_library.git",
+    "dockerhub-repository": "n3ng/fintech-lib:latest",
+    "project-website-url": "https://nathansng.github.io/fintech_library/",
+    "project-website-code": "https://github.com/nathansng/fintech_library/tree/finDL_website"
+}

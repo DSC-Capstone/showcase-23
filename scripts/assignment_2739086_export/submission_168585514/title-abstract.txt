@@ -1,0 +1,6 @@
+Title:
+Examining the Spatiotemporal Dynamics of Lake Oroville’s Area with NDWI Indices from Landsat 8 Image Data
+
+Abstract:
+Surface water has an important relationship with both the climate and human well being, thus it is important for us to monitor and measure bodies of water as the climate continues to change. Prior approaches in this field have had a larger scope and monitored changes throughout large bodies of water throughout the globe, however they lack more granular observations of smaller and more specific bodies of water in the United States. We attempt to close this gap by analyzing other important bodies of water throughout the United States, and specifically we analyzed Lake Oroville in Northern California. We used images captured with varying wavelengths on the electromagnetic spectrum to identify differences between water and non-water areas, and to analyze how these bodies of water change over time.
+

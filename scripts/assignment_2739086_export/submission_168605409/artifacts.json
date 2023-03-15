@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/darehunt/artifact-directory-template.git",
+    "project-repository": "https://github.com/darehunt/DSC180B-Project2.git",
+    "dockerhub-repository": "anmokhta/DSC180B-proj2:latest",
+    "project-website-url": "https://darehunt.github.io/DSC180B-Project2/",
+    "project-website-code": "https://github.com/darehunt/DSC180B-Project2.git"
+}

@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/nickthegroot/artifact-directory-template.git",
+    "project-repository": "https://github.com/nickthegroot/recipe-recommendation.git",
+    "dockerhub-repository": "ghcr.io/nickthegroot/recipe-recommendation:main",
+    "project-website-url": "https://recipe.nickthegroot.com/",
+    "project-website-code": "https://github.com/nickthegroot/recipe-recommendation.git"
+}

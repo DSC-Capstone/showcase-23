@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/notsamzhou/artifact-directory-template.git",
+    "project-repository": "https://github.com/jacquelinekclee/twas-dsc180-a17.git",
+    "dockerhub-repository": "notsamzhou/twas:latest",
+    "project-website-url": "https://notsamzhou.github.io/twas/",
+    "project-website-code": "https://github.com/notsamzhou/twas.git"
+}

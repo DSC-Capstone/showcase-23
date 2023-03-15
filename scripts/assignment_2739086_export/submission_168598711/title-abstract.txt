@@ -1,0 +1,5 @@
+Title:
+BRAINIARB: Behavioral Reconstruction And Insight via Neuroethological Imitation And Realistic Bodies
+
+Abstract:
+Simulations of animal behavior have the potential to reveal new insights into the mappings between the brain and natural behaviors that animals evolved to produce. Artificial neural networks applied in the context of task learning have recently been used as a common model of animal behavior. We reproduce various visualization and network comparison techniques traditionally applied to neuroscience to understand artificial neural networks, trained via offline and online reinforcement algorithms, in the context of biologically realistic behavior.

@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/colts661/capstone-artifact-directory.git",
+    "project-repository": "https://github.com/colts661/Incomplete-Text-Classification.git",
+    "dockerhub-repository": "yaw006/incomplete-tc:final",
+    "project-website-url": "https://incomplete-text-classification.vercel.app/",
+    "project-website-code": "https://github.com/Luning-Yang/Incomplete-Text-Classification-Website.git"
+}

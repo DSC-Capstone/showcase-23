@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/alexmak001/artifact-directory-template",
+    "project-repository": "https://github.com/alexmak001/SAR-satelite-image-ship-detection",
+    "dockerhub-repository": "snng/sar_ship_detection:latest",
+    "project-website-url": "https://alexmak001.github.io/SAR-satelite-image-ship-detection/",
+    "project-website-code": "https://github.com/alexmak001/SAR-satelite-image-ship-detection"
+}

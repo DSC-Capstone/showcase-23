@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/somet3000/artifact-directory-template",
+    "project-repository": "https://github.com/somet3000/1kgp-coverage-analysis",
+    "dockerhub-repository": "somet3000/eqtl_analysis:latest",
+    "project-website-url": "https://cga17.github.io/",
+    "project-website-code": "https://github.com/CGA17/CGA17.github.io"
+}

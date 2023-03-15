@@ -1,0 +1,5 @@
+Title:
+Is Wisdom of the Crowd a Viable Methodology to Predict Financial Markets?
+
+Abstract:
+This research paper aims to answer whether the "wisdom of the crowd" methodology is a viable approach to predicting financial markets. The wisdom of the crowd approach is based on the idea that the aggregation of opinions from many individuals can lead to more accurate and unbiased decisions and, in the context of financial markets, more accurate predictions of future market movements. We analyze batches of tweets from Twitter and leverage machine learning models to conduct sentiment analysis. Through our analysis, we aim to evaluate the effectiveness of this approach. Our findings may have implications for investors, financial analysts, and policymakers, as well as for future research in this area. The results of our study suggest that the wisdom of the crowd approach can provide valuable insights into market trends, but also has limitations that need to be carefully considered. Ultimately, our research aims to contribute to the ongoing discussion surrounding the use of social media data and machine learning models for financial market predictions.

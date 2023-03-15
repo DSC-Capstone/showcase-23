@@ -1,0 +1,6 @@
+Title:
+Analyzing U.S. Congressional Tweets with OpenAI GPT-3 
+
+Abstract:
+The China Data Lab at UC San Diego has been investigating the sentiment of Congress
+towards China as expressed in Tweets posted by Congress members. Currently, the sentiment analysis is done manually and the lab seeks to automate this process. Therefore, this project aims to employ machine learning models to classify: (1) whether the Tweets directly relate to China and (2) if relevant, what sentiment the Tweets belong to. Initially, this project found that classifying Tweets with a Bernoulli Naive Bayes model and scoring Tweets with a Ridge or Random Forest Regressor provided the bestvresults. However, the second portion of this project looks to use the GPT-3 Large Language Model as a substantially better alternative in its ability to understand and classify text.

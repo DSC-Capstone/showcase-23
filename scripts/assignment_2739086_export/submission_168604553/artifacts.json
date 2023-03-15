@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/k6chan/DSC180B-Q2-Project.git",
+    "project-repository": "https://github.com/k6chan/reverse-dictionary-pokemon.git",
+    "dockerhub-repository": "k6chan/reverse-dictionary-pokemon:latest",
+    "project-website-url": "https://k6chan.github.io/reverse-dictionary-pokemon/",
+    "project-website-code": "https://github.com/k6chan/reverse-dictionary-pokemon.git"
+}

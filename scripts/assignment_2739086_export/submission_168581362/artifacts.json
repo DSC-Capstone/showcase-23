@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/LtAstros/artifact-directory-template",
+    "project-repository": "https://github.com/Grizlucks/DSC180B-CapstoneFinalProject",
+    "dockerhub-repository": "tylrktran/dsc180b-investigating-dalle:latest",
+    "project-website-url": "https://grizlucks.github.io/DSC180B-CapstoneFinalProject/",
+    "project-website-code": "https://github.com/Grizlucks/DSC180B-CapstoneFinalProject/tree/website"
+}

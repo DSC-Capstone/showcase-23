@@ -1,10 +1,14 @@
 import pandas as pd
 import numpy as np
+import yaml, json
+import os
+import re
 
 # from IPython.display import display, HTML
 
 template_path = 'index-template.html'
 sheet_path = 'Public-Facing Block Assignments – DSC 180AB, 2022-23 - Sheet1.csv'
+ASGN_NAME = 'assignment_2739086_export'
 
 toc_map = {}
 
@@ -25,12 +29,73 @@ posters['Group #'] = posters['File'].str.extract(r'([AB]\d{2,3}-\d)')
 
 df = df.merge(mentors, on='Section').merge(posters, on='Group #')
 
+# Now, add abstract/website link/code link/paper link
+
+def load_artifacts(sub):
+    artifacts = json.load(open(f'{ASGN_NAME}/{sub}/artifacts.json', 'r'))
+    code = artifacts['project-repository']
+    code = code.replace('.git', '')
+    website = artifacts['project-website-url']
+    return code, website
+
+def load_title_abstract(sub):
+    f = open(f'{ASGN_NAME}/{sub}/title-abstract.txt', 'r').read()
+    try:
+        title = re.findall(r'Title:\n?(.+)', f)[0]
+    except:
+        return(sub)
+    title = title.strip().replace('<', '').replace('>', '')
+    abstract = re.findall(r'Abstract:\n?(.+)', f)[0]
+    return title, abstract
+
+def copy_poster(sub, group):
+    os.system(f'cp {ASGN_NAME}/{sub}/report.pdf ../reports/{group}.pdf')
+
+meta = yaml.safe_load(
+    open(f'{ASGN_NAME}/submission_metadata.yml', 'r')
+    )
+
+def process_metadata(meta):
+    out_df = pd.DataFrame(columns=['Group #', 'Code', 'Website', 'Title', 'Abstract'])
+
+    for sub in meta:
+        try:
+            name = meta[sub][':submitters'][0][':name']
+        except Exception as e:
+            print(sub)
+        row = df[df['Names'].str.contains(name)]
+        if len(row) != 1:
+            print(row)
+        else:
+            row = row.iloc[0]
+            group = row['Group #']
+            try:
+                code, website = load_artifacts(sub)
+                title, abstract = load_title_abstract(sub)
+                copy_poster(sub, group)
+                s_dict = {'Group #': group, 
+                        'Code': code, 
+                        'Website': website, 
+                        'Title': title,
+                        'Abstract': abstract}
+                out_df = pd.concat([out_df, pd.DataFrame([s_dict])])
+            except Exception as e:
+                print(e)
+    
+    out_df = out_df.groupby('Group #').last().reset_index()
+    return out_df
+
+df = df.merge(process_metadata(meta), on='Group #', how='left')
+###
+
+# ['Group #', 'Code', 'Website', 'Title', 'Abstract']
+
 def format_project(row):
     mentor_label = 'Mentors' if ('and' in row['Mentors'] or ',' in row['Mentors']) else 'Mentor'
     return f'''
 <b>{row["Project Title"]}</b>
 <p>Group {row["Group #"]}: {row["Names"]} ({mentor_label}: {row['Mentors']})<br>
-<a href="{row['URL']}">Poster</a></p>
+<a href="{row['URL']}">🪧 Poster</a> • <a href="{row['Website']}">🌐 Website</a> • <a href="reports/{row["Group #"]}.pdf">📖 Report</a> • <a href="{row['Code']}">💻 Code</a><br></p>
     '''
 
 def process_broad_area(area, block):

@@ -1,0 +1,5 @@
+Title:
+Optimization of DeepGLEAM on Flu Forecasting Time Series Data
+
+Abstract:
+The current COVID-19 pandemic and common flu highlight the importance of time- sensitive information in biomedical institutions, politics, and economics. The application of data science in creating real-time predictive models is crucial to help researchers and world leaders better understand disease spread and take preventative measures. Our project aims to optimize the DeepGLEAM model, a deep learning and stochastic process- based predictive model, by better processing raw data and simulating it for improved flu case predictions in the United States. We close the gap in missing data in the Deep- GLEAM model by researching interpolation and imputation techniques to enhance the model’s predictions. The performance of our adjusted model will be compared against a control model for effectiveness.

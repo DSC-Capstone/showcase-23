@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/j1u/artifact-directory-template.git",
+    "project-repository": "https://github.com/SamuelBAguirre/DSC180A_Project.git",
+    "dockerhub-repository": "samuelbaguirre/dsc180a_project:latest",
+    "project-website-url": "https://samuelbaguirre.github.io/",
+    "project-website-code": "https://github.com/SamuelBAguirre/SamuelBAguirre.github.io.git"
+}

@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/gordonhu608/artifact-directory-template.git",
+    "project-repository": "https://github.com/gordonhu608/Revisit_CLIP.git",
+    "dockerhub-repository": "https://hub.docker.com/repository/docker/gordonhu608/clip/",
+    "project-website-url": "https://gordonhu608.github.io/Revisit_CLIP/",
+    "project-website-code": "https://github.com/gordonhu608/Revisit_CLIP.git"
+}

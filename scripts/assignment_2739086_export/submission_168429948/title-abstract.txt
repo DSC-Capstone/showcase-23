@@ -1,0 +1,6 @@
+Title:
+Graph Database Solutions for Perovskite Solar Cell Manufacturing
+
+Abstract:
+The Solar Energy Innovation Laboratory (SOLEIL), under Professor David Fenning, manufactures and collects increasing amounts of perovskite solar cell data. SOLEIL varies chemicals, processes, and conditions for each cell to find the manufacturing process that produces optimal solar cells. Because the data comes in many different and complex formats, it's hard to store, query, and analyze; detecting patterns in their data will allow the lab to make data-driven choices to improve their research, saving critical time and money.
+Our project worked to create a database that allows the lab to record data in a flexible and predictable manner, and easily query the data for analysis and visualization purposes.

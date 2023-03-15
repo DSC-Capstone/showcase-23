@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/yunyihuang/artifact-directory-DSC180-A12-2.git",
+    "project-repository": "https://github.com/x6zeng/NLP-Active-Learning-Pipeline.git",
+    "dockerhub-repository": "theyunyi/dsc180b-q2-project:latest",
+    "project-website-url": "https://x6zeng.github.io/nlpactivelearning/",
+    "project-website-code": "https://github.com/x6zeng/nlpactivelearning.git"
+}

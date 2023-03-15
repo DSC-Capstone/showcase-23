@@ -1,0 +1,5 @@
+Title:
+Improving Network Accuracy via Network Manipulation
+
+Abstract:
+ Deep learning has been growing rapidly over the past couple decades due to its ability in solving extremely complex problems. However, this machine learning method is often considered as a "black box" since it is unclear how the neurons of a deep learning model work together to arrive at the final output. A recently found method called Network Dissection has solved this interpretability issue by coming up with a visual that shows what each neuron looks for and why. Results show that groups of neurons detect different human-interpretable concepts. Inspired by Network Dissection, we will be investigating methods to improve a convolutional neural network's prediction power based on the knowledge of the role of each neuron. One such method is FocusedDropout: keeping neurons that focus on human-readable concepts while discarding everything else. Additionally, the effect of regularization of input gradients on model robustness and interpretability is also tested. It is said to improve the association of neurons to concepts within an image.

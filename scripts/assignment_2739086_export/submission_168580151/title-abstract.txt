@@ -1,0 +1,7 @@
+Title:
+Modeling and Simulation of Aerosol Flow in a Classroom Environment with Mobile Sensors
+
+Abstract:
+The COVID-19 pandemic has brought the issue of indoor air quality and safety to the forefront of public attention. With the realization that respiratory aerosols can linger in indoor spaces and potentially spread the virus, it has become imperative for individuals to have access to accurate and effective tools for assessing indoor safety. While existing apps are available for monitoring factors such as temperature and air quality, they do not consider the concentration of respiratory aerosols or other contaminants that may be present in the indoor environment. 
+To address this crucial gap, our team is dedicated to developing a mobile application that will leverage the built-in sensor data and machine learning models to simulate aerosol flow and forecast the aerosol concentration in the surrounding area and enable users to assess the risk of exposure to respiratory aerosols and other pollutants, providing them with valuable information to make informed decisions about their safety.
+The app is not limited to COVID-19, as it can be used for various other purposes and illness. By processing the data we collected, our app can determine the safety of indoor environments and provide valuable insights to the quality of air. 

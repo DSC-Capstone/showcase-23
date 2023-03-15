@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/DSC-Capstone/artifact-directory-template.git",
+    "project-repository": "https://github.com/3XiangyiKong3/DSC180AB_code.git",
+    "dockerhub-repository": "xiangyikong/dsc180a:latest",
+    "project-website-url": "https://sites.google.com/ucsd.edu/dsc180-flu-forecasting/home",
+    "project-website-code": "https://sites.google.com/ucsd.edu/dsc180-flu-forecasting/home"
+}

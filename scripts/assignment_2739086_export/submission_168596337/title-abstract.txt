@@ -1,0 +1,5 @@
+Title:
+Discovering Continuous Latent Space Representations for Graphs
+
+Abstract:
+Graph neural networks (GNNs) have seen tremendous success in recent years, leading to their widespread adoption in a variety of applications. However, recent studies have demonstrated that GNNs can be vulnerable to adversarial attacks. Adversarial attacks allow adversaries to manipulate GNNs by introducing small, seemingly harmless perturbations to the input data, which can lead to misclassification or unexpected behavior from the GNN. Such attacks can have drastic impacts on security and privacy, particularly in safety-critical or privacy-sensitive applications. Consequently, research into adversarial attacks on GNNs is becoming increasingly important, and we thus propose a novel adversarial attack generation procedure for graph classification tasks. 

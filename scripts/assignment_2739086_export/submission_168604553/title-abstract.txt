@@ -1,0 +1,10 @@
+Title:
+Reverse Dictionary with Video Game Characters
+
+Abstract:
+Natural language processing (NLP) is a rapidly developing field with recent applications including weakly supervised text classification that uses machine learning techniques to label documents with minimal human intervention.
+
+As the opposite of conventional dictionaries of key-value pairs, reverse dictionaries return the key when given a value. Reverse dictionaries can be augmented using NLP models.
+
+Video game franchises can have over a thousand characters, each with distinct characteristics. For returning fans, one may run into a tip-of-the-tongue situation in which they may recall certain facts but be unable to name a character. We provide a reverse dictionary tool for people to query such facts and receive the name of the character they were describing.
+

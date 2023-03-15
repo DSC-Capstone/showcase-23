@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/JosephPerez4/artifact-directory-template.git",
+    "project-repository": "https://github.com/ptse8204/airlinedatabias.git",
+    "dockerhub-repository": "jop010/checkpoint:latest",
+    "project-website-url": "https://ptse8204.github.io/flightpricebias/",
+    "project-website-code": "https://github.com/ptse8204/flightpricebias.git"
+}

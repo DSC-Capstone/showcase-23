@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/Angela-Wang111/artifact-directory-template",
+    "project-repository": "https://github.com/Angela-Wang111/Pneumothorax_classification",
+    "dockerhub-repository": "angela010101/pneumothorax:latest",
+    "project-website-url": "https://angela-wang111.github.io/Pneumothorax_classification/",
+    "project-website-code": "https://github.com/Angela-Wang111/Pneumothorax_classification/tree/gh-pages"
+}

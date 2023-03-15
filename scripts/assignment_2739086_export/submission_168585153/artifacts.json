@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/Brian96086/artifact-directory-template.git",
+    "project-repository": "https://github.com/Brian96086/STNP_RL.git",
+    "dockerhub-repository": "brian9wang/stnp_rl",
+    "project-website-url": "https://tomwong001.github.io/dsc180b_project/",
+    "project-website-code": "https://github.com/tomwong001/dsc180b_project"
+}

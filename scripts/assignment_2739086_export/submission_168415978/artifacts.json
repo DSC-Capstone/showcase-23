@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/TallMessiWu/artifact-directory-template",
+    "project-repository": "https://github.com/TallMessiWu/ucsdcssa-website-backend.git",
+    "dockerhub-repository": "tallmessiwu/dsc180a-project:latest",
+    "project-website-url": "http://116.62.23.28/",
+    "project-website-code": "https://github.com/TallMessiWu/dota2-drafting-frontend.git"
+}

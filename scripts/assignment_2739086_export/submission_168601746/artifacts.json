@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/GihoKim-DataScientist/artifact-directory-template",
+    "project-repository": "https://github.com/taekunkim/flock-freight.git",
+    "dockerhub-repository": "gihokim1997/dsc180b_q2:latest",
+    "project-website-url": "https://www.taekun.com/external_files/flock-freight/2023-02-25-flock-freight.html",
+    "project-website-code": "https://github.com/taekunkim/taekunkim.github.io/tree/master/external_files/flock-freight"
+}

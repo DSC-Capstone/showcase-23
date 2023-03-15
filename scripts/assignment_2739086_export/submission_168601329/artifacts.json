@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/apatankar22/artifact-directory-template.git",
+    "project-repository": "https://github.com/apatankar22/hier-neural-proc.git",
+    "dockerhub-repository": "amoghvp/hier-neural-proc:latest",
+    "project-website-url": "https://apatankar22.github.io/hier-neural-proc",
+    "project-website-code": "https://github.com/apatankar22/hier-neural-proc.git"
+}

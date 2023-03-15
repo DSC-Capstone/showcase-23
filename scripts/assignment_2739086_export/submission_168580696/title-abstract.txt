@@ -1,0 +1,8 @@
+Title:
+Comparing Segmentation, Classification, and Cascade Convolutional Neural Networks for Pneumothorax Prediction
+
+Abstract:
+The diagnosis of many diseases, including pulmonary edema and pneumothorax, is heavily reliant on chest radiographs. Due to the restriction on the number of radiologists who are able to give diagnoses based on chest radiographs, disease treatment could be severely delayed. To solve this pressing problem, machine learning models like convolutional neural networks (CNNs) have been widely used to help give patients diagnoses based on their chest X-rays. 
+
+Last quarter, we focused on training CNN models, including VGG 16, 19, and ResNet 152, to give predictions for pulmonary edema based on chest X-rays. This quarter, we are interested in exploring more about using segmentation models to predict pneumothorax and comparing the performances among different model structures, including segmentation models, classification models, and cascades of segmentation model and classification model. We used a chest radiograph dataset called CANDID-PTX, curated by researchers from New Zealand, and annotated by senior consultant radiologists for ground truth labels. As expected, the cascade models perform the best among three structures, the segmentation models being the second, and the classification models being the least ideal. 
+

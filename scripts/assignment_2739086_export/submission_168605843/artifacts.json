@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/Lalaluke413/artifact-directory-template.git",
+    "project-repository": "https://github.com/pnagasam/dsc180a_capstone_project.git",
+    "dockerhub-repository": "lalaluke413/dsc180a_captstone_project:latest",
+    "project-website-url": "https://lalaluke413.github.io/",
+    "project-website-code": "https://github.com/Lalaluke413/lalaluke413.github.io.git"
+}

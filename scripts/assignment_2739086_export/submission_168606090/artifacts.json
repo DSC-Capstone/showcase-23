@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/DSC-Capstone/artifact-directory-template.git",
+    "project-repository": "https://github.com/MikeM820/foreground_window_forcast.git",
+    "dockerhub-repository": "mikem820/intel_capstone:latest",
+    "project-website-url": "https://mikem820.github.io/foreground_window_forcast/",
+    "project-website-code": "https://github.com/MikeM820/foreground_window_forcast/tree/website"
+}

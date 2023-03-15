@@ -1,0 +1,5 @@
+Title:
+Brain Region Activation From Sports Viewing
+
+Abstract:
+The goal of this report is to partially reproduce some of the ideas, analyses, and results from an original published paper, Antony et al., 2020. Through second-level analysis of 20 subjects, fMRI data that was used in the original paper was analyzed to determine if there is significant region activation during viewing and recall tasks.

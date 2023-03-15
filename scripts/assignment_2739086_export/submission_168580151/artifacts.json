@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/DSC-Qian/artifact-directory-template.git",
+    "project-repository": "https://github.com/ZixinMa27/DSC180-Aerosol-Flow-Modeling-and-Simulation-in-a-Classroom-with-Mobile-Sensors.git",
+    "dockerhub-repository": "tonyqjl/aerosolsim:latest",
+    "project-website-url": "https://zixinma27.github.io/DSC180-Aerosol-Flow-Modeling-and-Simulation-in-a-Classroom-with-Mobile-Sensors/",
+    "project-website-code": "https://github.com/ZixinMa27/DSC180-Aerosol-Flow-Modeling-and-Simulation-in-a-Classroom-with-Mobile-Sensors.git"
+}

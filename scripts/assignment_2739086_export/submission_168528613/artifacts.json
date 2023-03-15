@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/dsaraf-hub/artifact-directory-template",
+    "project-repository": "https://github.com/dsaraf-hub/DSC180A-Capstone_Quarter_2",
+    "dockerhub-repository": "ucsdets/datahub-base-notebook:2022.3-stable",
+    "project-website-url": "https://justincun.github.io//",
+    "project-website-code": "https://github.com/justincun/justincun.github.io"
+}

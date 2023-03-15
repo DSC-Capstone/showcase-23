@@ -1,0 +1,28 @@
+Title:
+Revisit CLIP: Multi-Perspective Improvements for Vision-Language Model
+
+Abstract:
+Large-scale contrastive vision-language pre-training
+has shown significant progress in visual representation
+learning. Unlike traditional visual systems trained by a
+fixed set of discrete labels, a new paradigm was introduced
+in CLIP to directly learn to align images with raw texts in
+an open-vocabulary setting. On downstream tasks, a carefully designed text prompt is employed to make zero-shot
+predictions. To avoid non-trivial prompt engineering, context optimization has been proposed to learn continuous vectors
+as task-specific prompts with few-shot training examples. Instead of learning the input prompt token,
+an orthogonal way is learning the weight distributions of
+prompt, which is also very effective. An alternative
+path is fine-tuning with a light-weight feature adapter 
+on the visual branch The most recent work introduces multimodal prompt learning, which uses a synergy function
+to simultaneously adapt language and vision branches for
+improved generalization. In our work, we revisit recent improvements in CLIP from different perspectives and propose
+an optimal way of combining the model’s architecture. We
+demonstrate that Data Augmentation (DA) and Test-Time
+Augmentation (TTA) are important for few-shot learning
+(FSL). We propose an end-to-end few-shot learning pipeline
+(DA + MaPLe + Adapters + TTA) that can be referenced for
+all downstream tasks. Compared with the state-of-the-art
+method ProDA in FSL, our model achieves an absolute
+gain of 6.33% on the 1-shot learning setting and 4.43% on
+the 16-shot setting, averaged over 10 diverse image recognition datasets.
+

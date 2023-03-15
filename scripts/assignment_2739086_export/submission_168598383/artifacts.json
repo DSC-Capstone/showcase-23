@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/thynguyen115/artifact-directory-template.git",
+    "project-repository": "https://github.com/miloncl/System-Usage-Analysis.git",
+    "dockerhub-repository": "ngtrcathy/panda",
+    "project-website-url": "https://miloncl.github.io/system-usage-analysis-website/",
+    "project-website-code": "https://github.com/miloncl/system-usage-analysis-website.git"
+}

@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/rtvo20/artifact-directory-template",
+    "project-repository": "https://github.com/rtvo20/dsc180_capstone_q2",
+    "dockerhub-repository": "rvo1/quarter1_submission:latest",
+    "project-website-url": "https://lsidarto.github.io/perovskite-graph-database/",
+    "project-website-code": "https://github.com/lsidarto/perovskite-graph-database/tree/main"
+}

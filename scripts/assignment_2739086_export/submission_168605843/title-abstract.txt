@@ -1,0 +1,5 @@
+Title:
+Optimal Transport For Domain Adaptation on African Satellite Imagery
+
+Abstract:
+Unsupervised domain adaptation is an important problem in machine learning. Machine learning models trained on a certain dataset often are tested on datasets that are drawn from a different distribution. The aim of our work is to find methods to provide the same performance of the machine learning model on a test distribution as the train distribution. Optimal Transport is the new We propose using optimal transport to achieve this and demonstrate results on a model used to asses poverty in Africa.

@@ -1,0 +1,5 @@
+Title:
+An Investigation on Mitigating Airline Pricing Model's Bias
+
+Abstract:
+When buying an airplane ticket there are multiple factors that can result in largely different prices in flights. As a result, there exist multiple different avenues for price discrimination to occur. Here, we investigate the effects of local demographics on the pricing of a given flight. Specifically, we look into potential biases with regard to race and income in terms of the metropolitan area. This is done through bias analysis and mitigation via the AIF360 toolkit. In turn, we aim to develop models that balance both accuracy as well as fairness between our classes to provide insights for a better pricing strategy for airlines and pricing information to consumers. In terms of pricing bias based upon metropolitan demographics, we found that there was little bias present in the data and in the models we developed. While the bias was not significant, we found a correlation between our set demographics and pricing as well as created models that balance both fairness and accuracy which demonstrates practical applicability of bias mitigation techniques.

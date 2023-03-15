@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/ddav118/artifact-directory-template.git",
+    "project-repository": "https://github.com/ddav118/DSC-180B.git",
+    "dockerhub-repository": "ucsdets/scipy-ml-notebook:2023.2-stable",
+    "project-website-url": "https://yashpotdar.github.io/deep-learning-pulmonary-edema/",
+    "project-website-code": "https://github.com/YashPotdar/deep-learning-pulmonary-edema.git"
+}

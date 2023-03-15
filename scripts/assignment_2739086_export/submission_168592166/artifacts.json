@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/kent831/DSC180B-Network-Dissection-Artifacts",
+    "project-repository": "https://github.com/GSam789/DSC180B-Capstone-Network-Dissection",
+    "dockerhub-repository": "kent831/dsc180b-capstone-network-dissection:latest",
+    "project-website-url": "https://thyungkim.github.io/Improve-Accuracy-via-Netdissect/",
+    "project-website-code": "https://github.com/thyungkim/Improve-Accuracy-via-Netdissect"
+}

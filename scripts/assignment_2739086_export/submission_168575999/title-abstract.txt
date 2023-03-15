@@ -1,0 +1,6 @@
+Title:
+Rethinking Credit Scores: Ensuring Fair Lending through NLP for Transaction Categorization
+
+
+Abstract:
+In this study, we classify banking transactions for the purposes of credit scoring and credit applications.  These classified transactions could help us assess credit worthiness in the absence of a credit history. For people like immigrants, students, or anyone looking to build credit and is without a good history, this is a convenient metric that is available for nearly any credit applicants.  We evaluate various methods for data cleaning, extraction, and modeling, and build an ensemble model to further improve performance and reduce overfitting.  

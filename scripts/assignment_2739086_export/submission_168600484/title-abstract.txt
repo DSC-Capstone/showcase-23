@@ -1,0 +1,14 @@
+Title:
+Flock Freight Offer Acceptance
+
+Abstract:
+Flock Freight is a company that engages with a variety of carriers and shipments, operating as
+a marketplace for freight carriers to submit bids on shipping orders that need to be fulfilled,
+a function commonly referred to as a "freight broker." Other companies remunerate Flock
+Freight to transport their shipments, which are subsequently outsourced to freight carriers.
+The company often encounters complications related to the bid acceptance procedure. Some
+shipment orders receive multiple offers, and minimizing the cost of orders is crucial to the
+enterprise since it maximizes profits.
+The objective of this project is to present a machine learning technique that will establish
+the optimal stopping point for the acceptance and reneging of delivery offers by carriers for
+Flock Freight’s orders.

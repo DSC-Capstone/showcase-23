@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/srgelinas/artifact-directory-template",
+    "project-repository": "https://github.com/KazumaYamamoto2023/DSC180B-Q2-Project",
+    "dockerhub-repository": "srgelinas/dsc180b_eth_fraud:latest",
+    "project-website-url": "https://srgelinas.github.io/dsc180b_eth_fraud/",
+    "project-website-code": "https://github.com/srgelinas/dsc180b_eth_fraud"
+}

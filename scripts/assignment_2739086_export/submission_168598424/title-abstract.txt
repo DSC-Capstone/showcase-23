@@ -1,0 +1,5 @@
+Title:
+GraphHSCN: Heterogenized Spectral Cluster Network for Long Range Graph Data
+
+Abstract:
+Graph Neural Networks (GNNs) have gained tremendous popularity for their potential to effectively learn from graph-structured data, commonly encountered in real-world applications. However, most of these models, based on the message-passing paradigm (interaction within a neighborhood of a few nodes), can only handle local interactions within a graph. When we enforce the models to use information from far away nodes, we will encounter two major issues— oversmoothing and oversquashing. Architectures such as the transformer and diffusion models are introduced to solve this. Yet, these models are not tested on large graph datasets containing graphs with large diameters. Although transformers are powerful, they require significant computational resources for both training and inference, thereby limiting their scalability, particularly for graphs with long-term dependencies. Hence, this paper proposes GraphHSCN—a Heterogenized Spectral Cluster Network, a message-passing-based approach specifically designed for capturing long-range interaction information.

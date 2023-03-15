@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/nahmann/artifact-directory-template/blob/main/artifacts.json",
+    "project-repository": "https://github.com/nahmann/DSC180-B16",
+    "dockerhub-repository": "ucsdets/datahub-base-notebook",
+    "project-website-url": "https://nahmann.github.io/DSC180-B16/",
+    "project-website-code": "https://github.com/nahmann/DSC180-B16/tree/github_pages"
+}

@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/Amandoj/artifact-directory-template.git",
+    "project-repository": "https://github.com/Amandoj/DSC180-Q2-Project.git",
+    "dockerhub-repository": "emersonchao/dsc180b:latest",
+    "project-website-url": "https://renaldyh27.github.io/Capstone-Website/",
+    "project-website-code": "https://github.com/renaldyh27/Capstone-Website.git"
+}

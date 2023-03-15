@@ -1,0 +1,5 @@
+Title:
+<Preventing Credit Fraud: Categorizing Transactions Using NLP>
+
+Abstract:
+<Categorizing types of credit transactions is a key aspect of understanding credit users, detecting suspicious activity, and preventing fraud. Using natural language processing, a transaction’s memo can be analyzed and categorized into a larger category. In this paper, we attempt to build a model that uses NLP methods to categorize credit transactions. We attempt several methods for cleaning the text to extract features, before categorizing the transactions.>

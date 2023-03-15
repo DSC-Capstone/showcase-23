@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/gbirch11/dsc180b.git",
+    "project-repository": "https://github.com/zaxiang/Spam_Filter.git",
+    "dockerhub-repository": "gbirch11/dsc180b:latest",
+    "project-website-url": "https://gbirch11.github.io/SpamLabelClassifier/",
+    "project-website-code": "https://github.com/gbirch11/SpamLabelClassifier.git"
+}

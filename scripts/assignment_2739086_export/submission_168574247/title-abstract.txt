@@ -1,0 +1,5 @@
+Title:
+Decentralized Location Consensus Through Proximity Tracing
+
+Abstract:
+Many applications use location data to provide services, but malicious users can disrupt these by manipulating or faking their location. In an effort to combat and catch these users, our project involves a system to authenticate user location data without having one central authority in control of all the information. By leveraging the physical proximity necessary for devices to send and receive data through Bluetooth Low Energy signals, our system is able to detect users lying about their location without receiving any location information. Our portion of the project was creating the server backend that communicates with devices to store information about flagged users and process it for the purpose of adding malicious users to a blacklist.

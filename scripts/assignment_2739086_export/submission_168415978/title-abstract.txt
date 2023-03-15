@@ -1,0 +1,12 @@
+Title:
+DOTA2 Pro Match Prediction
+
+Abstract:
+In this project, we use machine learning techniques to predict the result of pro DOTA2
+matches based on the heroes selected by each team after the pick and ban phase. We employed
+various models, including neural networks, decision trees, and random forest, to analyze
+historical data from DOTA2. After comparing the accuracy of each model, we found that the
+random forest model gave the best prediction results with an accuracy of 51.4%. We also
+investigated the counter relationship between heroes and found that considering this factor could
+improve the accuracy of the model to 58.3%. Our model's prediction is consistent and robust,
+and it can be used to help the DOTA2 community and players to have a more interactive game.

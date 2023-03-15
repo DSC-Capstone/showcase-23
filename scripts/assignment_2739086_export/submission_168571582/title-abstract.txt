@@ -1,0 +1,5 @@
+Title:
+Weakly Supervised Spam-Label Classification
+
+Abstract:
+We are interested in identifying spam emails and messages in general given a set of seed words and classes in the weakly supervised text classification setting. We are mostly interested in this because of the emergence of spam messages that continue to improve and bypass current spam filter detection systems. Furthermore, we want to be able to classify what kind of spam messages are coming in to get an idea of the pattern of each type of spam message. We are hoping detecting patterns could leave to money saving and seeing how these messages evolve can provide some insight into how to do so. Phishing and other forms of scams cost United States citizens billions of dollars a year as companies try to keep up against these attacks. The Federal Trade Commission recently published that consumers lost nearly 8.8 billion dollars to scams in 2022. So, we want to be able to help non-tech-savvy people by limiting their interactions with these potentially harmful messages.

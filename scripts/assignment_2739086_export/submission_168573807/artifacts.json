@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/NJMIXI98/artifact-directory-template.git",
+    "project-repository": "https://github.com/NJMIXI98/DSC180_Q2PROJECT.git",
+    "dockerhub-repository": "ucsdets/datahub-base-notebook:2022.3-stable",
+    "project-website-url": "https://sawadhwa.github.io/",
+    "project-website-code": "https://github.com/sawadhwa/sawadhwa.github.io"
+}

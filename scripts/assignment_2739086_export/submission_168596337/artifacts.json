@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/Barry0121/artifact-directory",
+    "project-repository": "https://github.com/Barry0121/graph-neural-net-benchmark",
+    "dockerhub-repository": "barry121/graph-neural-network:latest",
+    "project-website-url": "https://dsc180-gnn.github.io",
+    "project-website-code": "https://github.com/DSC180-GNN/DSC180-GNN.github.io"
+}

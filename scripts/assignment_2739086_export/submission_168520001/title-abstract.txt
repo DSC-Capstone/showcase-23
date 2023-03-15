@@ -1,0 +1,5 @@
+Title:
+CryptoWho: Auditing YouTube Investment Recommendations using GPT
+
+Abstract:
+Since 2021, over a billion dollars have been lost to cryptocurrency related scams. Over 50% of victims report their first interaction with cryptocurrency stemming from some form of social media. People ages 20-49 were 3x more likely to report these types of fraud. With the rise of ‘Finfluencers*’ across all platforms, more and more people turn to social media for their personal finances. Can we trust these platforms to provide balanced recommendations to everyone? Join us as we leverage GPT-3 to investigate the investment recommendations provided by YouTube.

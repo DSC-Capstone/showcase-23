@@ -1,0 +1,11 @@
+Title:
+Trustworthy Recommender Systems via Bayesian Bandits
+
+Abstract:
+Recommender systems have emerged as a simple yet powerful framework for
+the suggestion of relevant items to users. However, a potential issue arises when
+recommender systems overly recommend or spam undesired products to users in
+which the model loses the trust of the user. We propose a constrained bandit-based
+recommender system. We show this model outperforms Upper Confidence Bound
+(UCB) and Thompson sampling in terms of expected regret and does not lose the
+trust of the users.

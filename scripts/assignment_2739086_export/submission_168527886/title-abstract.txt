@@ -1,0 +1,5 @@
+Title:
+Reddit Interaction Graph-based Community Recommendations
+
+Abstract:
+Subreddit recommendation is a powerful tool that can enhance user experiences and improve user churn and engagement for Reddit. Reddit currently employs algorithms for subreddit recommendation; however, we seek to improve upon this recommendation system by selecting a graph-based machine learning algorithm to suggest subreddits to users through community detection along with user interactions. We implement tools from TigerGraph to examine various ways of representing these interactions between Reddit users as features to guide our analysis.

@@ -1,0 +1,5 @@
+Title:
+Community Detection of Music Genres Using Spotify Playlists
+
+Abstract:
+Recent work introduced the vast unfolding of community detection in large networks, in which a heuristic methodology not only identifies communities, but also measures the density between nodes in modules that highlight the strength of a subcommunity. It was shown that such clustering methodologies can facilitate community detection with the benefits that include exceeding other clustering algorithms in time complexity. In this paper, we focus on using CESNA (Communities from Edge Structure and Node Attributes) in order to combine both methodologies to see if we can categorize artists by genres based on the playlists they are in. By using a combination of the generated network’s edges and the attributes of each artist, CESNA was able to construct 7 distinct communities with 53% of artists in each community matching the top genres (such as indie-pop) in each respective community and 82% of artists matching the general genre of each community.

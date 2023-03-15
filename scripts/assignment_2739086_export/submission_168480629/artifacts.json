@@ -1,0 +1,7 @@
+{
+    "this-repository": "https://github.com/vineettalla/ServiceChain-artifacts.git",
+    "project-repository": "https://github.com/vineettalla/Servicechain.io.git",
+    "dockerhub-repository": "ucsdets/datahub-base-notebook",
+    "project-website-url": "https://anyachandorkar.github.io/servicechain.io/",
+    "project-website-code": "https://github.com/anyachandorkar/servicechain.io.git"
+}

@@ -1,0 +1,16 @@
+Title:
+Graph-Based Deep Learning for Fraud Detection in Ethereum Transaction Networks
+
+Abstract:
+Blockchain technology is a quickly growing field, helped greatly through
+its widespread applications in the financial field. However, the space has
+been under attack through phishing fraud, posing itself as a major threat
+to blockchain security. According to the FTC, cryptocurrency scams have
+cost online users over $1 Billion since 2021; there is a clear demand for
+the development of effective fraud detection strategies to prevent and
+detect cybercrimes. With access to Ethereum transaction networks, we
+can model and train phishing detection as a node classification problem.
+With graph-based machine learning approaches, we can more effectively
+flag fraudulent activity in Ethereum networks and reduce the amount of
+phishing activity with Ethereum, and improve user experience with safer
+transactions as blockchain technology gains even more traction.

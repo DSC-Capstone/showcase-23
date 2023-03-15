@@ -1,0 +1,16 @@
+Title:
+Solutions of Foreground Window Recommendations
+
+Abstract:
+Working alongside with the intel technology team, our group spent the first quarter and
+the winter break collecting many types of user activity data from a PC. We collected the
+movement data of a mouse or data which applications users opened. And we collected data of the
+foreground window duration, the class and the executive name of the application.With all this
+data, we can use them to make further predictions about which application the user will probably
+open at a certain time, and for how long on the desktop.
+In this project, we first implemented the hidden markov model for predicting the next
+application based on the current application opened on the windows. To increase the accuracy,
+we predict the next few possible applications instead of just a single one. Furthermore, we
+implemented a Long short-term memory method based on the Recurrent neural network model
+to predict the total time an application is used in the foreground.
+
