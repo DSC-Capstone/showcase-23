@@ -25,9 +25,12 @@ mentors = pd.read_csv('2022-23 Student-Facing Capstone Scheduling Sheet - Sheet3
                       header=None)
 mentors.columns = ['Section', 'Mentors']
 posters = pd.read_csv('Poster links - Sheet1.csv')
+reports = pd.read_csv('Report links - Sheet1.csv')
+reports['Group #'] = reports['File'].str.replace('.pdf', '')
+print(reports.head())
 posters['Group #'] = posters['File'].str.extract(r'([AB]\d{2,3}-\d)')
 
-df = df.merge(mentors, on='Section').merge(posters, on='Group #')
+df = df.merge(mentors, on='Section').merge(posters, on='Group #').merge(reports, on='Group #')
 
 # Now, add abstract/website link/code link/paper link
 
@@ -48,8 +51,8 @@ def load_title_abstract(sub):
     abstract = re.findall(r'Abstract:\n?(.+)', f)[0]
     return title, abstract
 
-def copy_poster(sub, group):
-    os.system(f'cp {ASGN_NAME}/{sub}/report.pdf ../reports/{group}.pdf')
+# def copy_poster(sub, group):
+#     os.system(f'cp {ASGN_NAME}/{sub}/report.pdf ../reports/{group}.pdf')
 
 meta = yaml.safe_load(
     open(f'{ASGN_NAME}/submission_metadata.yml', 'r')
@@ -72,7 +75,7 @@ def process_metadata(meta):
             try:
                 code, website = load_artifacts(sub)
                 title, abstract = load_title_abstract(sub)
-                copy_poster(sub, group)
+                # copy_poster(sub, group)
                 s_dict = {'Group #': group, 
                         'Code': code, 
                         'Website': website, 
@@ -95,7 +98,7 @@ def format_project(row):
     return f'''
 <b>{row["Project Title"]}</b>
 <p>Group {row["Group #"]}: {row["Names"]} ({mentor_label}: {row['Mentors']})<br>
-<a href="{row['URL']}">🪧 Poster</a> • <a href="{row['Website']}">🌐 Website</a> • <a href="reports/{row["Group #"]}.pdf">📖 Report</a> • <a href="{row['Code']}">💻 Code</a><br></p>
+<a href="{row['URL']}">🪧 Poster</a> • <a href="{row['Website']}">🌐 Website</a> • <a href="{row["Report URL"]}.pdf">📖 Report</a> • <a href="{row['Code']}">💻 Code</a><br></p>
     '''
 
 def process_broad_area(area, block):
