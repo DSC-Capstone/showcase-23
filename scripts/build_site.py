@@ -89,9 +89,11 @@ def process_metadata(meta):
     return out_df
 
 df = df.merge(process_metadata(meta), on='Group #', how='left')
-###
 
-# ['Group #', 'Code', 'Website', 'Title', 'Abstract']
+# Manual fixes for typos
+
+df.loc[df['Group #'] == 'B08-1', 'Code'] = 'https://github.com/ESR76/Capstone-Brick-Modeling'
+df.loc[df['Group #'] == 'B319-3', 'Code'] = 'https://github.com/TallMessiWu/dota2-drafting-backend'
 
 def format_project(row):
     mentor_label = 'Mentors' if ('and' in row['Mentors'] or ',' in row['Mentors']) else 'Mentor'
