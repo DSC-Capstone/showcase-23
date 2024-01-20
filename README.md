@@ -1,3 +1,3 @@
-# showcase
+# showcase-23
 
-Source for hdsishowcase.com. Will eventually be moved to a different repo.
+Source for dsc-capstone.org/showcase-23.
